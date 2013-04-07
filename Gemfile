@@ -1,12 +1,17 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.12'
+gem 'rails', '3.2.13'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+gem 'mysql2'
 
+gem 'json'
+
+gem 'execjs'
+
+gem 'therubyracer'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -35,4 +40,4 @@ gem 'jquery-rails'
 # gem 'capistrano'
 
 # To use debugger
-# gem 'debugger'
+# gem 'ruby-debug'
